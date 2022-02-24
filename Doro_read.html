@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+<title>Дорохедоро Глава 1</title>
+<meta charset="utf-8">
+<link rel="shortcut icon" href="book.ico" type="image/x-icon">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js">
+<style>
+.mySlides {display:none;}
+.carousel-item {
+  height: 100vh;
+  min-height: 350px;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+</style>
+<body>
+<nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+  <div class="container">
+    <a class="navbar-brand" href="fordelivery.html">Назад</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarResponsive">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="forhome.html">Home</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<div class="w3-content w3-display-container">
+
+<div class="w3-display-container mySlides">
+  <img src="0.jpeg" style="width:100%">
+</div>
+
+<div class="w3-display-container mySlides">
+  <img src="1.jpeg" style="width:100%">
+</div>
+
+<div class="w3-display-container mySlides">
+  <img src="2.jpeg" style="width:100%">
+</div>
+
+<div class="w3-display-container mySlides">
+  <img src="3.jpeg" style="width:100%">
+</div>
+
+<div class="w3-display-container mySlides">
+  <img src="4.jpeg" style="width:100%">
+</div>
+
+<div class="w3-display-container mySlides">
+  <img src="5.jpeg" style="width:100%">
+</div>
+
+<div class="w3-display-container mySlides">
+  <img src="6.jpeg" style="width:100%">
+</div>
+<div class="w3-display-container mySlides">
+  <img src="7.jpeg" style="width:100%">
+</div>
+<div class="w3-display-container mySlides">
+  <img src="8.jpeg" style="width:100%">
+</div>
+<div class="w3-display-container mySlides">
+  <img src="9.jpeg" style="width:100%">
+</div>
+<div class="w3-display-container mySlides">
+  <img src="10.jpeg" style="width:100%">
+</div>
+<div class="w3-display-container mySlides">
+  <img src="11.jpeg" style="width:100%">
+</div>
+<div class="w3-display-container mySlides">
+  <img src="12.jpeg" style="width:100%">
+</div>
+<div class="w3-display-container mySlides">
+  <img src="13.jpeg" style="width:100%">
+</div>
+<div class="w3-display-container mySlides">
+  <img src="14.jpeg" style="width:100%">
+</div>
+<div class="w3-display-container mySlides">
+  <img src="15.jpeg" style="width:100%">
+</div>
+<div class="w3-display-container mySlides">
+  <img src="16.jpeg" style="width:100%">
+</div>
+<div class="w3-display-container mySlides">
+  <img src="17.jpeg" style="width:100%">
+</div>
+<div class="w3-display-container mySlides">
+  <img src="18.jpeg" style="width:100%">
+</div>
+<div class="w3-display-container mySlides">
+  <img src="19.jpeg" style="width:100%">
+</div>
+<div class="w3-display-container mySlides">
+  <img src="20.jpeg" style="width:100%">
+</div>
+<div class="w3-display-container mySlides">
+  <img src="21.jpeg" style="width:100%">
+</div>
+<div class="w3-display-container mySlides">
+  <img src="22.jpeg" style="width:100%">
+</div>
+<div class="w3-display-container mySlides">
+  <img src="23.jpeg" style="width:100%">
+</div>
+<div class="w3-display-container mySlides">
+  <img src="24.jpeg" style="width:100%">
+</div>
+<div class="w3-display-container mySlides">
+  <img src="25.jpeg" style="width:100%">
+</div>
+<div class="w3-display-container mySlides">
+  <img src="26.jpeg" style="width:100%">
+</div>
+<div class="w3-display-container mySlides">
+  <img src="27.jpeg" style="width:100%">
+</div>
+
+<button class="w3-button w3-display-left w3-black" onclick="plusDivs(-1)" style="margin-right:50px ">&#10094;</button>
+<button class="w3-button w3-display-right w3-black" onclick="plusDivs(1)" style="margin-left: 50px">&#10095;</button>
+
+</div>
+
+<script>
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  if (n > x.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+     x[i].style.display = "none";  
+  }
+  x[slideIndex-1].style.display = "block";  
+}
+</script>
+
+</body>
+</html>
+
