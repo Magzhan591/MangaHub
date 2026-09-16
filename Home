@@ -11,6 +11,6 @@
 </head>
 <body>
     <!-- Этот код откроет ваш PDF на весь экран смартфона или компьютера -->
-    <iframe src="document.pdf"></iframe>
+    <iframe src="Шынгысов_Магжан.pdf"></iframe>
 </body>
 </html>
